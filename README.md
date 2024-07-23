@@ -75,10 +75,8 @@ For questions or comments, you can reach me at:
 
 ### 📸 Screenshots
 
-
-![image](https://github.com/user-attachments/assets/91f26d83-2c9a-4822-86c1-e8234bafd393)
-![image](https://github.com/user-attachments/assets/1dadc0fb-abbc-46c8-b874-187f226f2b4b)
-
+![Screenshot 2024-07-23 164730](https://github.com/user-attachments/assets/499172fd-bd8a-494d-954d-7d425fba8b5d)
+![Screenshot 2024-07-23 164819](https://github.com/user-attachments/assets/f4f0be21-2a33-4b9c-a092-6e6b3c0de8bd)
 
 ---
 
