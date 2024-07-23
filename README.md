@@ -56,7 +56,7 @@ To get started with this project locally, follow these steps:
    npm run dev
    ```
 
-   Visit [http://localhost:3000](http://localhost:5173) in your browser to view the project.
+   Visit [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
 ## 🤝 Contributing
 
@@ -75,8 +75,8 @@ For questions or comments, you can reach me at:
 
 ### 📸 Screenshots
 
-![Screenshot 2024-07-23 164730](https://github.com/user-attachments/assets/499172fd-bd8a-494d-954d-7d425fba8b5d)
-![Screenshot 2024-07-23 164819](https://github.com/user-attachments/assets/f4f0be21-2a33-4b9c-a092-6e6b3c0de8bd)
+![Evidencia 1](https://github.com/user-attachments/assets/499172fd-bd8a-494d-954d-7d425fba8b5d)
+![Evidencia 2](https://github.com/user-attachments/assets/f4f0be21-2a33-4b9c-a092-6e6b3c0de8bd)
 
 ---
 
