@@ -1,0 +1,27 @@
+.card {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    will-change: transform, background-color; /* Optimize animation performance */
+}
+
+.cardImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.selected {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+    transition: transform 0.3s ease; /* Ensure smooth scaling */
+}

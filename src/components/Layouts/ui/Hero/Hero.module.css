@@ -1,0 +1,184 @@
+.heroContainer {
+    background: linear-gradient(180deg, rgba(255,255,0,1) 0%, rgba(255,255,0,1) 85%, rgba(188,182,0,1) 100%);
+    background-position: 50%;
+    background-size: cover;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.heroDecoration {
+    z-index: 999;
+}
+
+.heroWhiteCircle {
+    background-color: white;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    position: absolute;
+    left: -7%;
+    top: -12%;
+    filter: drop-shadow(3px 3px 5px rgb(255,255,255));
+}
+
+.heroBackCircle {
+    border: 15px solid black;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50%;
+    position: absolute;
+    left: -9%;
+    top: -16%;
+    filter: drop-shadow(3px 3px 5px rgb(0,0,0));
+}
+
+.heroBackCircle2 {
+    border: 25px solid black;
+    width: 45vh;
+    height: 45vh;
+    border-radius: 50%;
+    position: absolute;
+    left: -12%;
+    top: -22%;
+    filter: drop-shadow(3px 3px 5px rgb(0,0,0));
+}
+
+.imgLogoContainer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    z-index: 950;
+}
+
+.imgLogo {
+    justify-content: center;
+    position: absolute;
+    left: -14vw;
+    top: 5vh;
+    transform: matrix3d(0.9848, 0, 0.1736, 0, 0, 1, 0, 0, -0.1736, 0, 0.9848, 0, 0, 0, 0, 1);
+}
+
+@media (min-width: 768px) {
+    .heroContainer{
+        background-position: 50%;
+        height: 100vh;
+    }
+}
+
+.heroContainer h1 {
+    color: #000;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -70px;
+}
+
+.heroContainer2 {
+    background: rgb(0, 0, 0);
+    background-position: 50%;
+    background-size: cover;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Ensure the background image covers the container */
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.atletaDescription {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+    z-index: 1; /* Ensure it's above the background image */
+}
+
+.carouselContainer {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    padding: 20px; /* Add padding to ensure cards are not cut off */
+    gap: 20px; /* Space between cards */
+    z-index: 1; /* Ensure it's above the background image */
+}
+
+.carouselContent {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Space between cards */
+    align-items: center;
+}
+
+
+
+
+
+
+
+.cuadrosContenido {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    top: 50vh;
+    gap: 25%;
+    z-index: 999;
+    justify-content: center;
+}
+
+.cuadro1 {
+    width: 30%;
+    height: 65%;
+    border-radius: 5px;
+    background-color: black;
+    filter: drop-shadow(3px 3px 5px rgb(0,0,0));
+}
+
+.cuadro2 {
+    width: 30%;
+    height: 65%;
+    border-radius: 5px;
+    background-color: black;
+    filter: drop-shadow(3px 3px 5px rgb(0,0,0));
+}
+
+.Textos {
+    display: flex;
+    position: absolute;
+    top: 52vh;
+    left: 15vh;
+    gap: 93.8vh;
+    width: 100vw;
+    z-index: 999;
+}
+
+.Textos label {
+    color: #707070;
+    font-weight: 600;
+}
+
+.atletaDescription span {
+    font-size: 2rem;
+    color: rgb(255, 255, 0);
+    font-weight: 600;
+}
